@@ -1,6 +1,6 @@
 public class Variable {
     public static void main(String[] args) {
-	    byte age = 26;
+        byte age = 26;
 	    short growth = 183;
 	    int weight = 80;
 	    long year = 1992;
