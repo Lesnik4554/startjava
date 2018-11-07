@@ -15,6 +15,6 @@ public class Variable {
 	System.out.println(pi1);
 	System.out.println(pi2);
 	System.out.println(letter);
-        System.out.println(yes);
+       System.out.println(yes);
     }
 }
