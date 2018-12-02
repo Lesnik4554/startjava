@@ -1,8 +1,8 @@
 public class ConditionalStatement {
     public static void main(String[] args) {
         int age = 26;
-        boolean male;
-        boolean female;
+        boolean male = true;
+        boolean female = true;
         double growth = 1.83;
         char name = 'К';
 
@@ -10,28 +10,25 @@ public class ConditionalStatement {
             System.out.println("Мне 26 лет");
         }
 
-        if (male = true) {
+        if (male) {
             System.out.println("Пол мужской");
         }
 
-        if (female = true) {
+        if (female) {
             System.out.println("Пол женский");
         }
 
         if (growth < 1.80) {
             System.out.println("Больше 1.80");
-        }
-        else {
+        } else {
             System.out.println("Мой рост 1.83");
         }
 
         if (name == 'М') {
             System.out.println("Моё имя начинается не с буквы М");
-        }
-        else if (name == 'И') {
+        } else if (name == 'И') {
             System.out.println("Моё имя начинается не с буквы И");
-        }
-        else {
+        } else {
             System.out.println("Моё имя начинается с буквы К");
         }
     }
