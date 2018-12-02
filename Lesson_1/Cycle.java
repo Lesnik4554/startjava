@@ -6,9 +6,9 @@ public class Cycle {
         System.out.println(" ");
 
         int chet = 6;
-        while (a >= -6) {
-            System.out.print(" " + a);
-            a -= 2;
+        while (chet >= -6) {
+            System.out.print(" " + chet);
+            chet -= 2;
         }
         System.out.println(" ");
 
