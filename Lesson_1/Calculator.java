@@ -11,31 +11,31 @@ public class Calculator {
             System.out.println(b + " + " + a + " = " + sum);
         }
         sum = a - b;
-        if (true) {
+        if (sign == '-') {
             System.out.println(a + " - " + b + " = " + sum);
         } else {
             System.out.println(b + " - " + a + " = " + sum);
         }
         sum = a * b;
-        if (true) {
+        if (sign == '*') {
             System.out.println(a + " * " + b + " = " + sum);
         } else {
             System.out.println(b + " * " + a + " = " + sum);
         }
         sum = a / b;
-        if (true) {
+        if (sign == '/') {
             System.out.println(a + " / " + b + " = " + sum);
         } else {
             System.out.println(b + " / " + a + " = " + sum);
         }
         sum = a % b;
-        if (true) {
+        if (sign == '%') {
             System.out.println(a + " % " + b + " = " + sum);
         } else {
             System.out.println(b + " % " + a + " = " + sum);
         }
         sum = (a + b) * (a + b);
-        if (true) {
+        if (sign == '^') {
             System.out.println(a + " ^ " + b + " = " + sum);
         } else {
             System.out.println(b + " ^ " + a + " = " + sum);
