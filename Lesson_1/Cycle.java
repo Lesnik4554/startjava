@@ -5,22 +5,22 @@ public class Cycle {
         }
         System.out.println(" ");
 
-        int chet = 6;
-        while (chet >= -6) {
-            System.out.print(" " + chet);
-            chet -= 2;
+        int even = 6;
+        while (even >= -6) {
+            System.out.print(" " + even);
+            even -= 2;
         }
         System.out.println(" ");
 
-        int nechet = 11;
-        int summ = 0;
+        int odd = 11;
+        int summa = 0;
         do {
-            summ = summ + nechet;
-            if (nechet % 2 != 0) {
-                System.out.println("Число " + nechet + " нечетное");
+            if (odd % 2 != 0) {
+                System.out.println("Число " + odd + " нечетное");
             } 
-            nechet += 2;
-        } while (nechet <= 20);
-        System.out.println("11 + 13 + 15 + 17 + 19 = " + summ);
+            summa += odd;
+            odd += 2;
+        } while (odd <= 20);
+        System.out.println("11 + 13 + 15 + 17 + 19 = " + summa);
     }
 }

@@ -4,37 +4,37 @@ public class Calculator {
         int b = 2;
         double sum = 0;
         sum = a + b;
-        if (a <= b) {
+        if (true) {
             System.out.println(a + " + " + b + " = " + sum);
         } else {
             System.out.println(b + " + " + a + " = " + sum);
         }
         sum = a - b;
-        if (a <= b) {
+        if (true) {
             System.out.println(a + " - " + b + " = " + sum);
         } else {
             System.out.println(b + " - " + a + " = " + sum);
         }
         sum = a * b;
-        if (a <= b) {
+        if (true) {
             System.out.println(a + " * " + b + " = " + sum);
         } else {
             System.out.println(b + " * " + a + " = " + sum);
         }
         sum = a / b;
-        if (a <= b) {
+        if (true) {
             System.out.println(a + " / " + b + " = " + sum);
         } else {
             System.out.println(b + " / " + a + " = " + sum);
         }
         sum = a % b;
-        if (a <= b) {
+        if (true) {
             System.out.println(a + " % " + b + " = " + sum);
         } else {
             System.out.println(b + " % " + a + " = " + sum);
         }
-        sum = a ^ b;
-        if (a <= b) {
+        sum = (a + b) * (a + b);
+        if (true) {
             System.out.println(a + " ^ " + b + " = " + sum);
         } else {
             System.out.println(b + " ^ " + a + " = " + sum);
