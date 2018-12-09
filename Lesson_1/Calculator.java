@@ -3,42 +3,18 @@ public class Calculator {
         int a = 1;
         int b = 2;
         char sign = '+';
-        double sum = 0;
-        sum = a + b;
         if (sign == '+') {
-            System.out.println(a + " + " + b + " = " + sum);
-        } else {
-            System.out.println(b + " + " + a + " = " + sum);
-        }
-        sum = a - b;
-        if (sign == '-') {
-            System.out.println(a + " - " + b + " = " + sum);
-        } else {
-            System.out.println(b + " - " + a + " = " + sum);
-        }
-        sum = a * b;
-        if (sign == '*') {
-            System.out.println(a + " * " + b + " = " + sum);
-        } else {
-            System.out.println(b + " * " + a + " = " + sum);
-        }
-        sum = a / b;
-        if (sign == '/') {
-            System.out.println(a + " / " + b + " = " + sum);
-        } else {
-            System.out.println(b + " / " + a + " = " + sum);
-        }
-        sum = a % b;
-        if (sign == '%') {
-            System.out.println(a + " % " + b + " = " + sum);
-        } else {
-            System.out.println(b + " % " + a + " = " + sum);
-        }
-        sum = (a + b) * (a + b);
-        if (sign == '^') {
-            System.out.println(a + " ^ " + b + " = " + sum);
-        } else {
-            System.out.println(b + " ^ " + a + " = " + sum);
+            System.out.println(a + " + " + b + " = " + (a + b));
+        } else if (sign == '-') {
+            System.out.println(a + " - " + b + " = " + (a - b));
+        } else if (sign == '*') {
+            System.out.println(a + " * " + b + " = " + (a * b));
+        } else if (sign == '/') {
+            System.out.println(a + " / " + b + " = " + (a / b));
+        } else if (sign == '%') {
+            System.out.println(a + " % " + b + " = " + (a % b));
+        } else if (sign == '^') {
+            System.out.println(a + " ^ " + b + " = " + ((a + b) * (a + b)));
         }
     }
 }
