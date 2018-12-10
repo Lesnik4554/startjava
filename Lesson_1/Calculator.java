@@ -14,7 +14,7 @@ public class Calculator {
         } else if (sign == '%') {
             System.out.println(a + " % " + b + " = " + (a % b));
         } else if (sign == '^') {
-            System.out.println(a + " ^ " + b + " = " + ((a + b) * (a + b)));
+            System.out.println(a + " ^ " + b + " = " + Math.pow(a, b));
         }
     }
 }
